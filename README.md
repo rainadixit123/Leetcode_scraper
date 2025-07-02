@@ -1,2 +1,3 @@
 # Leetcode_scraper
-A Python-based web scraper that automates the extraction of editorial approaches, multi-language solutions, and code snippets from LeetCode. Designed to fetch structured content from a specific problem's editorial or solution page, and save it to organized text files — ready for offline use, reference, or study.
+A powerful Selenium-based Python script that automatically scrapes editorials and/or community solutions from the top 100 LeetCode problems. If an editorial is unavailable for a problem, it intelligently falls back to extract the most relevant community solution instead. All extracted content is saved in organized .txt files and finally zipped into a single archive.
+
